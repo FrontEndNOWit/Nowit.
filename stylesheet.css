@@ -22,7 +22,14 @@ a {
     text-decoration: none;
 }
 
+* {
+    box-sizing: border-box;
+}
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
 
 header {
     background-color: rgba( 0, 0, 0, 0.9);
@@ -62,7 +69,6 @@ span {
 }
 
 
-
 .rightbtn {
  background-color: black;
  width: 50px;
@@ -84,16 +90,17 @@ span {
 }
 
 
+
 .top {
     width: 1200px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: ;
+    margin-top: 90px;
 
 }
 .isi {
-    background-image: url(lombok.jpg);
+    background-image: url(maluku.jpg);
     background-size: cover;
     width: 1200px;
     height: 500px;
@@ -101,6 +108,8 @@ span {
 main {
     margin-top:10px;
     margin-left: 10px;
+    height: 1230px;
+
 }
 .dalem {
     height: 250px;
@@ -114,45 +123,57 @@ main {
     
 }
 .top {
-    background-image: url();
     height: 500px;
     width: 1200px;
-    opacity: ;
-   
 }
 .top h1 {
     padding-top: 400px;
     font-size: 60px;
     font-style: italic;
-    opacity: 70%;
 }
 .top p{
     padding: 0px 20px 0px 20px;
     opacity: 0%;
 }
+.isi:hover {
+    background-color: white;
+}
+.background:hover {
+    background-color: white;
+    height: 500px;
+    opacity: 0.4;
+}
 .top:hover {
-    height: 530px;
+    height: 500px;
     transition: 0.3s;
 }
 .top:hover h1 {
-    opacity: 99%;
-    padding-top: 30px;
+    opacity: 1;
+    padding-top: 90px;
     font-size: 50px;
     transition: 0.3s;
 }
 .top:hover p {
-    opacity: 99%;
-    transition: 1s;
+    opacity: 1;
+    transition: .3s;
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 
 .center {
     background-color: rgb(216, 216, 216);
-    margin-top:25px;
-    float: left;
+    margin: auto;
+    margin-top: 30px; 
+    padding: 20px 0;
+}
+.clear{
+    clear: both;
 }
 .center h1{
-    padding-left: 40px;
+    padding: 10px 0 30px 50px;
 }
 .image1 {
     background-color:rgb(146, 144, 144);
@@ -183,8 +204,10 @@ main {
 .image1:hover img{
     height: 220px;
 }
-.image1:hover h4 {
+.image1:hover h2 {
     padding-bottom:30px;
+    font-size: 25px;
+    transition: .3s;
 }
 
 hr {
@@ -192,26 +215,42 @@ hr {
 }
 .thanks {
     background-color: gray;
-    text-align: center;
-    width: 1000px;
+    width: 500px;
     height: 40px;
     border-radius: 30px;
-    text-align: center;
-    margin: auto;
+    margin: 60px auto;
 }
 
 
+/* 
+.saran h2{
+    font-size: 15px;
+    margin: 10px 0px 0px 20px;
 }
-.kirim {
+.saran textarea,input{
+    margin-left: 10px;
+    width: 200px;
+}
+.saran {
+    float: left;
     background-color: gray;
-    width: 205px;
-    height: 50px;
-}
-.kirim:hover {
-    background-color: rgb(105, 103, 103);
-    color: white;
+    width: 230px;
+    height: 190px;
+    margin-left: 20px;
 }
 
+.kirim input{
+    height: 30px;
+    margin-top: 10px;
+    background-color: #dee7ec;
+    color: black;
+    width: 206px;
+
+}
+.kirim:hover input{
+    background-color: black;
+    color: white;
+} */
 
 footer {
     background-color: black;
